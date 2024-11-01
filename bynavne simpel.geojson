@@ -11,7 +11,10 @@
     {
       "type": "Feature",
       "properties": { 
-        "text": "Kelstrup"
+        "label": {
+          "text": "Kelstrup",
+          "placement": "point"
+        }
       },
       "geometry": { 
         "type": "Point", 
@@ -21,7 +24,10 @@
     {
       "type": "Feature", 
       "properties": {
-        "text": "Maugstrup"
+        "label": {
+          "text": "Maugstrup",
+          "placement": "point"
+        }
       },
       "geometry": {
         "type": "Point",
@@ -31,12 +37,17 @@
     {
       "type": "Feature",
       "properties": {
-        "text": "Løgumgårde"
+        "label": {
+          "text": "Løgumgårde",
+          "placement": "point"
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [ 8.935372211, 55.087667407 ]
       }
     }
-   ]
+   
+  ]
 }
+
